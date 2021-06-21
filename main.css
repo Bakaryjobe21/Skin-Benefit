@@ -1,0 +1,351 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(27,27,27);
+    
+}
+
+
+header{
+display: flex;
+justify-content: space-between;
+ padding: 2rem; 
+ width: 300px;  
+
+}
+footer{
+    padding: 40px;
+    margin-right: 10px;
+    left: 15%;
+    position: relative;
+}
+ footer h2{
+    margin-right: 10px;
+    left: 5%;
+    position: relative;
+    list-style-type: none;
+    font-size: 40px;
+    color:purple;
+}
+ul{
+    margin-right: 10px;
+    left: 5%;
+    position: relative;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 2rem;
+    color: white;
+}
+
+.img1{
+    width: 200px;
+    margin-right: 10px;
+    left: 25%;
+    position: relative;
+}
+
+.img1 img{
+    width: 190px;
+    border-radius: 50%;
+}
+figcaption{
+    color: purple;
+    text-align: center;
+    font-size: 30px;
+}
+nav{
+    display: block;
+    padding: 4rem;
+    margin-right: 10px;
+    left: 2%;
+    position: relative;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color:purple;
+    font-size: 24px;
+    display: block;
+    
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.card{
+    background: white;
+    width: 390px;
+    
+    margin: 10px;
+    border-radius:15px 15px 0 0 ;
+    
+}
+.card-img{
+    
+    
+    height: 300px;
+    margin-bottom: 15px;
+    border-radius: 15px 15px 0 0;
+    
+}
+.car-1{
+    background-image: url(./image/index.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+.car-2{
+background-image: url(./image/index2.jpg);
+background-position: center;
+background-size: cover;
+}
+.car-3{
+background-image: url(./image/index3.jpg);
+background-position: center;
+background-size: cover;
+}
+.car-4{
+    background-image: url(./image/index4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.car-5{
+    background-image:url(./image/index5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.car-6{
+    background-image: url(./image/index6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card h2{
+    padding: 10px;
+    font-size: 29px;
+}
+.card p{
+    padding: 10px;
+    font-size: 29px;
+}
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    display: block; 
+    margin: 20px 50px;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+.card:hover {
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.sec{
+    margin: 0 auto;
+    padding: 5px;
+}
+.sec  p{
+    color: white;
+    font-size: 40px;
+}
+.sec h1{
+    color: white;
+    font-size: 40px;
+}
+
+@media screen and (min-width:400px) and (max-width:780px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+         padding: 2rem; 
+         width: 300px;  
+        
+        }
+        
+        .img1{
+            width: 200px;
+            margin-right: 10px;
+            left: 95%;
+            position: relative;
+        }
+        
+        .img1 img{
+            width: 190px;
+            border-radius: 50%;
+        }
+        figcaption{
+            color: white;
+        }
+        nav{
+            display: block;
+            padding: 4rem;
+            margin-right: 10px;
+            left:20%;
+            position: relative;
+        }
+        
+        nav a{
+            padding: 10px;
+            text-decoration: none;
+            color:purple;
+            font-size: 30px;
+        
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+        }
+        .card{
+            background: white;
+            width: 390px;
+            
+            margin: 10px;
+            
+        }
+        .card-img{
+            
+            
+            height: 300px;
+            margin-bottom: 15px;
+            border-radius: 15px 15px 0 0;
+            
+        }
+        .car-1{
+            background-image: url(./image/index.jpg) ;
+            background-position: center;
+            background-size: cover;
+        }
+        .car-2{
+        background-image: url(./image/index2.jpg);
+        background-position: center;
+        background-size: cover;
+        }
+        .car-3{
+        background-image: url(./image/index3.jpg);
+        background-position: center;
+        background-size: cover;
+        }
+        .car-4{
+            background-image: url(./image/index4.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .car-5{
+            background-image:url(./image/index5.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        .car-6{
+            background-image: url(./image/index6.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .card h2{
+            padding: 10px;
+            font-size: 29px;
+        }
+        .card p{
+            padding: 10px;
+            font-size: 29px;
+        }
+        .card a{
+            background-color: black;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            display: block; 
+            margin: 20px 50px;
+            text-decoration: none;
+            
+        }
+        .card:hover {
+            background-color: rgb(62,62,62);
+            color: white;
+            cursor: pointer;
+            transform: scale(1.03);
+            transition: all 1s ease;
+        }
+        .sec{
+            margin: 0 auto;
+            padding: 5px;
+        }
+        .sec  p{
+            color: white;
+            font-size: 40px;
+        }
+        .sec h1{
+            color: white;
+            font-size: 40px;
+        }
+        footer{
+            padding: 40px;
+            margin-right: 10px;
+            left: 30%;
+            position: relative;
+        }
+         footer h2{
+            margin-right: 10px;
+            left: 5%;
+            position: relative;
+            list-style-type: none;
+            font-size: 40px;
+            color:purple;
+        }
+        ul{
+            margin-right: 10px;
+            left: 5%;
+            position: relative;
+            list-style-type: none;
+        }
+        ul li a{
+            text-decoration: none;
+            font-size: 30px;
+            padding: 2rem;
+            color: white;
+        }
+}
+@media screen and (min-width:781px) and (max-width:1920px) {
+    .head{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav{
+        padding: 5rem;
+        display: flex;
+    }
+    nav a{
+        font-size: 40px;
+        display: flex;
+    }
+    figcaption{
+        font-size: 30px;
+        color: purple;
+    }
+    footer{
+        padding: 40px;
+        margin-right: 10px;
+        left: 38%;
+        position: relative;
+    }
+}
